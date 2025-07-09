@@ -16,10 +16,8 @@ const ChatBox = () => {
         citations: [
           {
             text:
-              "As the age of the deceased at the time of accident was held to be about 54–55 years... (Para 7)",
-            source: "Dani_Devi_v_Pritam_Singh.pdf",
-            link:
-              "https://lexisingapore-my.sharepoint.com/:b:/g/personal/harshit_lexi_sg/EdOegeiR_gdBvQxdyW4xE6oBCDgj5E4Bo5wjvhPHpqgIuQ?e=TEu4vz",
+              "As the age of the deceased at the time of accident was held to be about 54-55 years... (Para 7)",
+            link: "/Dani_Devi_v_Pritam_Singh.pdf", // PDF from public folder
           },
         ],
       });
@@ -44,7 +42,9 @@ const ChatBox = () => {
         {loading ? "Generating..." : "Submit"}
       </button>
 
-      {response && <AnswerCard answer={response.answer} citations={response.citations} />}
+      {response && (
+        <AnswerCard answer={response.answer} citations={response.citations} />
+      )}
     </div>
   );
 };

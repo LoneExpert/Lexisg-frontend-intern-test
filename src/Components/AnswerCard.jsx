@@ -10,9 +10,11 @@ const AnswerCard = ({ answer, citations }) => {
         <h3 className="text-md font-semibold text-gray-800 mb-2">Citation:</h3>
         {citations.map((citation, index) => (
           <div key={index} className="text-gray-700 mb-3">
-            <p className="italic mb-1">“{citation.text}” (Para 7 of the document)</p>
+            <p className="italic mb-1">
+              “{citation.text}” (Para 7 of the document)
+            </p>
             <a
-              href={`/${citation.source}#page=2`}
+              href={`${process.env.PUBLIC_URL}${citation.link}#page=2`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline hover:text-blue-800"
