@@ -11,7 +11,7 @@ Built using **React.js** and **Tailwind CSS**, without any real backend logic.
 
 ## 🚀 Live Demo (Optional Bonus)
 If hosted, add your link here:
-[Host Link](https://your-vercel-link.vercel.app)
+[Host Link](https://loneexpert.github.io/Lexisg-frontend-intern-test/)
 
 ---
 
