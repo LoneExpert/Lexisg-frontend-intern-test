@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lexisg-frontend-intern-test/static/css/main.48c2944a.css",
-    "main.js": "/lexisg-frontend-intern-test/static/js/main.bdb7fb7d.js",
+    "main.js": "/lexisg-frontend-intern-test/static/js/main.d4c7a9a2.js",
     "static/js/453.8fa91000.chunk.js": "/lexisg-frontend-intern-test/static/js/453.8fa91000.chunk.js",
     "static/media/logo.png": "/lexisg-frontend-intern-test/static/media/logo.24e12947f63dcde33fb6.png",
     "index.html": "/lexisg-frontend-intern-test/index.html",
     "main.48c2944a.css.map": "/lexisg-frontend-intern-test/static/css/main.48c2944a.css.map",
-    "main.bdb7fb7d.js.map": "/lexisg-frontend-intern-test/static/js/main.bdb7fb7d.js.map",
+    "main.d4c7a9a2.js.map": "/lexisg-frontend-intern-test/static/js/main.d4c7a9a2.js.map",
     "453.8fa91000.chunk.js.map": "/lexisg-frontend-intern-test/static/js/453.8fa91000.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48c2944a.css",
-    "static/js/main.bdb7fb7d.js"
+    "static/js/main.d4c7a9a2.js"
   ]
 }
